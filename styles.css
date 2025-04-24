@@ -2,3 +2,10 @@
     color: whitesmoke;
     background-color: darkslateblue;
 }
+
+.img_portfolio {
+    min-width:250px;
+    height:200px;
+    border-radius:5px;
+    margin:auto;
+}
