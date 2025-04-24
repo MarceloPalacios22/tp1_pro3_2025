@@ -61,13 +61,27 @@ a {
 .header_padel {
     background-color: darkslateblue;
     color: whitesmoke;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
 }
 
 .img_padel {
-    min-width: 300;
-    height: 250;
-    border-radius: 5px;
-    margin: auto;
+    display: inline-block;
+    margin: 10px;
+    width: 450px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img_padel_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .header_tenis {
