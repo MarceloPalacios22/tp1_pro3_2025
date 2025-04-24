@@ -87,8 +87,30 @@ a {
 .header_tenis {
     background-color: darkslateblue;
     color: whitesmoke;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
 
 }
+
+.img_tenis {
+    display: inline-block;
+    margin: 10px;
+    width: 450px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img_tenis_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
 
 .boton {
     background-color: darkslateblue;
