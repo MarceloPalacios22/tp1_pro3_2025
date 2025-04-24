@@ -21,3 +21,24 @@
     border-radius: 5px;
     margin: auto;
 }
+
+.header_tenis {
+    background-color: darkslateblue;
+    color: whitesmoke;
+
+}
+
+.boton {
+    background-color: darkslateblue;
+    color: whitesmoke;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: rgb(48, 41, 96);
+}
